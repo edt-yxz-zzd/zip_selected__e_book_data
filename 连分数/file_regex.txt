@@ -1,0 +1,9 @@
+file_regex
+file
+	= continued_fraction_pi_100term_per_line_omit_zeroth_term.txt
+	= cf(1/(pi-3))[0:1_8000_0000]
+	= cf(pi)[1:1_8000_0001]
+begin with 7
+
+file_regex = r"((\d+, ){100}\n){180_0000}"
+
